@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .contact {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px;
+        }
+        .contact img {
+            width: 50px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contacts</h1>
+        <ul>
+            <li class="contact">
+                <img src="profile1.jpg" alt="Profile Picture">
+                <div>
+                    <h2>John Doe</h2>
+                    <p>Email: john@example.com</p>
+                    <p>Phone: +1234567890</p>
+                </div>
+            </li>
+            <li class="contact">
+                <img src="profile2.jpg" alt="Profile Picture">
+                <div>
+                    <h2>Jane Smith</h2>
+                    <p>Email: jane@example.com</p>
+                    <p>Phone: +1987654321</p>
+                </div>
+            </li>
+            <!-- Add more contacts as needed -->
+        </ul>
+    </div>
+</body>
+</html>
